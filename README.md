@@ -1,8 +1,30 @@
-# EJS-Testing-Repo
+# EJS-TailwindCSS
 
-Personal notes for testing of EJS and npm
+This is just some personal notes for trial testing of EJS, npm and TailwindCSS during the discussion in Code MNL
 
-# Codes
+## Technologies
+
+- Node.js
+- EJS
+- Express
+- Express EJS Layouts
+- Tailwind
+
+# How to use
+
+```
+npm install
+
+npm run start // npm run dev
+```
+
+## Compile Tailwind CSS
+
+```
+npm run devcss
+```
+
+# Important Codes to remember, FOR SELF
 
 ```
 npm init -y
@@ -15,5 +37,7 @@ npx tailwindcss -i public/assets/styles/global.css -o public/assets/styles/style
 ```
 
 Notes to self:
+
 What's the use of postcss?
+
 ---Added postcss config file and the devcss worked. Add manualy.
