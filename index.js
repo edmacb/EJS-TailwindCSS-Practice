@@ -14,15 +14,28 @@ app.set("view engine", "ejs");
 
 //Navigation
 app.get("/", function (req, res) {
-  res.render("pages/index", { title: "Home Page" });
+  res.render("pages/index");
 });
 
 app.get("/about", function (req, res) {
-  res.render("pages/about", { title: "Home Page" });
+  res.render("pages/about", {
+    people: [
+      {
+        name: "This",
+      },
+      {
+        name: "SOMETHING",
+      },
+      { name: "What" },
+    ],
+  });
 });
 
-app.get("/about", function (req, res) {
-  res.render("pages/about");
+app.get("/dashboard", function (req, res) {
+  res.render("pages/owner"),
+    {
+      layout: "../layouts/dashboard",
+    };
 });
 
 app.get("/about", function (req, res) {

@@ -16,3 +16,4 @@ npx tailwindcss -i public/assets/styles/global.css -o public/assets/styles/style
 
 Notes to self:
 What's the use of postcss?
+---Added postcss config file and the devcss worked. Add manualy.
